@@ -1,0 +1,19 @@
+server:
+  port: 8106
+
+spring:
+  application:
+    name: user-service      
+  datasource:
+    url: jdbc:mysql://localhost:3306/mitraisdb
+    username: bybdbuser
+    password: saudara123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+      ddl-auto: validate
