@@ -8,7 +8,7 @@ Change Api URL in `src`->`environment`->`apiURL` (according to yours API URL)
 
 ## Server Side
 
-Go to `https://github.com/aditrustandi/mitraisBackend` ( using laravel v7 )
+Go to `https://github.com/mcdeden/mitraisExam` ( using Angular 9 )
 
 ## Development server
 
